@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contanier {
+    display: flex;
+    height: 10%;
+}
+
+.sidebar {
+    height: 100vw;
+    width: 410px;
+    background-color: antiquewhite;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    font-family: sans-serif;
+    list-style: none;
+    font-size: 20px;
+    padding: 13px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.main {
+    width: 87vw;
+    /* background-color: lightblue; */
+}
+
+.main .infoContanier {
+    /* background-color: darkgoldenrod; */
+    height: 50vh;
+    width: 80vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.main .infoContanier .div_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -50px;
+}
+
+.main .infoContanier .div_info .intro {
+    font-size: 75px;
+    line-height: 70px;
+}
+
+.main .infoContanier .div_info .name {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.main .infoContanier .div_info .skill {
+    font-size: 30px;
+    margin: 2px;
+}
+
+.main .infoContanier .div_info p {
+    line-height: 22px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.main .infoContanier .div_info .buttons {
+    margin-top: 10px;
+}
+
+.main .infoContanier .div_info .buttons button {
+    margin: 0 3px;
+    padding: 8px 13px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main .infoContanier .div_info .buttons button:hover {
+    background-color: antiquewhite;
+    color: dodgerblue;
+}
+
+.main .image img {
+    width: 400px;
+    height: 50vh;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+
+
+.contactform {
+    padding-top: 100px;
+    padding-left: 70px;
+    /* padding: 25px 50px; */
+    font-family: sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
+
+.contactform form div {
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    padding: 7px;
+    width: 26vw;
+    border-radius: 7px;
+    margin: 6px 0 0 0;
+}
+
+.contactform form div input {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: darkgoldenrod;
+    margin: 5px 5px;
+    padding: 3px 0 0 0;
+}
+
+#form_check {
+    flex-direction: row;
+}
+
+#form_check input {
+    width: 25px;
+    margin: 3px 3px;
+}
+
+.btn {
+    width: 10%;
+    padding: 8px 6px;
+    border-radius: 20px;
+    margin: 2px 0;
+    font-size: 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.sidebar {
+    width: 18%;
+}
+
+
+
+
+.blogContanier {
+    padding: 30px 20px;
+}
+
+.blogContanier h1 {
+    color: dodgerblue;
+    margin: 5px;
+}
+
+.blogContanier .blogItem {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.blogContanier .blogItem h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.blogContanier .blogItem p {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin: -1px;
+}
+
+
+
+
+.intro h2 {
+    margin-top: -73px;
+    font-size: 30px;
+    padding: 100px 50px;
+}
+
+.intro h3 {
+    margin-top: -170px;
+    font-size: 30px;
+    padding: 100px 50px;
+}
+
+.intro p {
+    margin-top: -200px;
+    font-size: 18px;
+    padding: 100px 50px;
+}
+
+.intro .skillContanier {
+    margin-top: -90px;
+    padding: 2px;
+}
+
+.intro .skillItem {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.intro .skill {
+    width: 265px;
+    height: 8px;
+    border: 2px solid black;
+}
+
+.hundered {
+    width: 250px;
+    background-color: darkblue;
+}
+
+.eighty {
+    width: 190;
+    background-color: darkgoldenrod;
+}
+
+.fifty {
+    width: 125px;
+    background-color: chartreuse;
+}
+
+.twenty_five {
+    width: 63;
+    background-color: blueviolet;
+}
+
+.intro .project .projectcont h4{
+    font-size: 20px;
+}
+
+.intro .project .projectcont p{
+    font-size: 17px;
+}
+
+.intro .project .projectcont .project1{
+    margin-top: -100px;
+    padding: 10px 50px;
+}
+
+.intro .project .projectcont .project1 p{
+    margin-top: -8px;
+    padding: 10px 10px;
+}
+
+.intro .project .projectcont .project2{
+    padding: 10px 45px;
+}
+
+.intro .project .projectcont .project2 p{
+    padding: 202px 10px;
+}
+
+
+
+
+
+
+.service{
+    padding: 50px 50px;
+}
+
+.service h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.service .serviceinfo{
+    padding: 10px 10px;
+}
+
+.service .serviceinfo .content{
+    margin: 20px;
+}
+
+.service .serviceinfo h2{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.service .serviceinfo p{
+    padding-left: 20px;
+}
